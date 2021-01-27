@@ -1,0 +1,28 @@
+.App, form{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+input, button{
+  width: 20vw;
+  height: 30px;
+  font-size: 1.5rem;
+  margin: 5px;
+}
+
+ul{
+  list-style: none;
+  padding: 0;
+}
+
+li{
+  border: 1px solid black;
+  padding: 15px;
+}
+
+li button {
+  width: 10vw;
+}
